@@ -1,0 +1,44 @@
+.site {
+    width: 100%;
+    height: 100%;
+}
+
+.principal {
+    background-color:#cccccc;
+    padding: 30px;
+}
+
+.titulo {
+    padding-left: 40px;
+}
+ p {
+    font-size: 20px;
+    text-align: center;
+}
+.banner {
+    width: 100%;
+}
+
+.iten {
+    font-style: italic;
+}
+
+.beneficio {
+    background-color: #ffffff;
+    padding: 20px;
+
+}
+
+.centralizado {
+    text-align: center;
+}
+
+.banner2 {
+    width: 50%;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
