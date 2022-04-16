@@ -79,6 +79,7 @@ descricao {
     font-size: 22px;
 
 }
+
 footer {
     text-align: center;
     color: #ffffff;
@@ -86,7 +87,34 @@ footer {
     padding: 40x 0;
     font-size: 13px;
     margin: 20px 20px ;
-
 }
 
- 
+/*table {
+    margin:20px 0 40px ;
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: solid #000000;
+    padding: 15px 8px;
+}
+*/
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
