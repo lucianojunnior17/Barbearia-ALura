@@ -26,7 +26,15 @@ nav a {
     font-weight: bold ;
     font-size: 22px;
     text-decoration: none;
+    
 }
+
+nav a:hover {
+    color: #c78C19;
+    text-decoration: underline;
+
+}
+
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -38,7 +46,18 @@ nav a {
     border: 2px solid #000000;
     border-radius: 24px;
 }
+.produtos li:hover {
+    border-color: #c78c19;
+}
  
+.produtos li:active {
+    border-color: #c78C19;
+}
+.produtos li:hover h2 {
+    font-size: 34px;
+
+}
+
 .produtos  {
     width: 940px;
     margin: 0 auto;
