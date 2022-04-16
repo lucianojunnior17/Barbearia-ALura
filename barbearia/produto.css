@@ -79,5 +79,14 @@ descricao {
     font-size: 22px;
 
 }
+footer {
+    text-align: center;
+    color: #ffffff;
+    background: url(img/bg.jpg);
+    padding: 40x 0;
+    font-size: 13px;
+    margin: 20px 20px ;
+
+}
 
  
