@@ -6,21 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="produto.css">
     <title>Barbearia Alura</title>
 </head>
 
 <body>
-    <div class="site">
-        <div class="header">
-            <header>
-                <h1 class="titulo"> Barbearia Alura</h1>
-            </header>
+    <header>
+        <div class="caixa">
+            <h1><img src="img/logo.png" alt="Logo da Barbearia Alura"></h1>
+            <nav>
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="produto.html">Produtos</a> </li>
+                    <li> <a href="Contatos.html">Contatos</a> </li>
+                </ul>
+            </nav>
         </div>
-        <div class="principal">
-            <img class="banner" src="img/banner.jpg" alt="">
+    </header>
+
+    <img class="banner" src="img/banner.jpg" alt="">
+
+    <main>
+        <section class="principal">
 
             <h2 class="centralizado">Sobre a Barbearia Alura</h2>
+
+            <img src="img/utensilios.jpg" alt="utensilios" class="utensilhos">
+
             <p> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de
                 melhor
                 para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade
@@ -33,25 +47,71 @@
                 O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos
                 clientes.</p>
 
-        </div>
+        </section>
+
+        <section class="mapa">
+            <h3 class="centralizado">Nosso estabelecimento</h3>
+
+            <p>Nosso estabelecimento fica no coração da Cidade</p>
+
+            <div class="centro-mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d58513.83087192204!2d-46.627268984031446!3d-23.56433338384658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salura%20s%C3%A3o%20paulo!5e0!3m2!1spt-BR!2sbr!4v1650158623287!5m2!1spt-BR!2sbr"
+                    width="940px" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+        
 
 
-        <div class="beneficio">
+        <section class="beneficio">
             <h3 class="centralizado">Benefícios</h3>
 
-            <ul class="lista">
-                <li class="iten">Atendimento aos Clientes</li>
-                <li class="iten">Espaço difenciados</li>
-                <li class="iten">Localização</li>
-                <li class="iten">Profissionais Qualificados</li>
-            </ul>
+            <div class="conteudo-beneficio">
+                <ul class="lista-beficio">
+                    <li class="iten">Atendimento aos Clientes</li>
+                    <li class="iten">Espaço difenciados</li>
+                    <li class="iten">Localização</li>
+                    <li class="iten">Profissionais Qualificados</li>
+                    <li class="iten">Pontualidade</li>
+                    <li class="iten">Limpeza</li>
 
-            <img class="banner2" src="img/beneficios.jpg" alt="">
+                </ul>
+                <img class="banner2" src="img/beneficios.jpg" alt="Banner da Barbearia">
+            </div>
+
+        </section>
+
+
+
+
+            <section>
+                <div class="video">
+                    <iframe class="ivideo" width="560" height="315" src="https://www.youtube.com/embed/JJCgXdfDNI0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+
+            <img src="img/logo-branco.png" alt="">
+            <p> &copy; Copyright Barbearia Alura - Luciano Lima Jr. - 2022 &reg; </p>
 
         </div>
 
 
-    </div>
+    </footer>
+
+
 
 </body>
 

@@ -1,22 +1,29 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .site {
     width: 100%;
     height: 100%;
 }
 
 .principal {
-    background-color:#cccccc;
-    padding: 30px;
+    text-align: center;
+    font-size: 2em;
+    margin:0px 60px 0.5em;
+    clear: left;
+    pad: 3em 0;
+    background: #fefefe;
+    width: 940px;
+    margin:  0 auto;
 }
 
 .titulo {
     padding-left: 40px;
 }
- p {
+p {
     font-size: 20px;
     text-align: center;
-}
-.banner {
-    width: 100%;
 }
 
 .iten {
@@ -24,21 +31,119 @@
 }
 
 .beneficio {
-    background-color: #ffffff;
+    width: 80%;
     padding: 20px;
+    width: 940px;
+    margin:  0 auto;
+}
+
+.iten   {
+    line-height: 1.5em;
 
 }
 
-.centralizado {
-    text-align: center;
+.iten:first-child {
+    font-weight: bold;
 }
 
-.banner2 {
-    width: 50%;
+.iten::before {
+    content:"✯" ;
 }
+
+
 ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
+}
+/* estilização da Página Inicial*/
+.banner {
+    width: 100%;
+}
+
+
+.centralizado {
+    text-align: center;
+    font-size: 3em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.lista li {
+    width: 50%;
+}
+
+.banner2 {
+    width: 60%;
+    box-sizing: 10px 10px 10px 20px #000000;
+}
+
+.utensilhos {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.conteudo-beneficio {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficio {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;   
+}
+
+.mapa {
+    background:linear-gradient(#Fefefe,#888888);
+    padding: 3em 0;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.centro-mapa {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+    padding: 3em 0;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .beneficio .conteudo-beneficios, .conteudo-beneficioimg .mapa-conteudo, .video .banner2 {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+     .beneficio .lista-beneficios, .conteudo-beneficio img .imagem-beneficios .banner2 {
+        width: 100%;
+    }
 }
